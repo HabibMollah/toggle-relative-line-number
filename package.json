@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "toggle-relative-line-number.helloWorld",
-        "title": "Hello World"
+        "command": "toggle-relative-line-number.toggle",
+        "title": "Toggle Relative Line Number"
       }
     ]
   },
