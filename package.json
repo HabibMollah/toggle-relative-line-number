@@ -1,9 +1,14 @@
 {
   "name": "toggle-relative-line-numbers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/habibium/toggle-relative-line-numbers"
+  },
   "publisher": "habibium",
   "displayName": "Toggle Relative Line Numbers",
   "description": "Toggle your line numbers between relative and absolute with keyboard shortcut",
   "version": "0.9.2",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -29,15 +34,15 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run package",
-    "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
     "watch": "npm-run-all -p watch:*",
     "watch:esbuild": "node esbuild.js --watch",
     "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
-    "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
     "compile-tests": "tsc -p . --outDir out",
     "watch-tests": "tsc -p . -w --outDir out",
-    "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "check-types": "tsc --noEmit",
     "lint": "eslint src"
   },
