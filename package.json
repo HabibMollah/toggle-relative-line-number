@@ -17,6 +17,13 @@
         "command": "toggle-relative-line-number.toggle",
         "title": "Toggle Relative Line Number"
       }
+    ],
+    "keybindings": [
+      {
+        "command": "toggle-relative-line-number.toggle",
+        "key": "ctrl+alt+l",
+        "when": "editorTextFocus"
+      }
     ]
   },
   "scripts": {
