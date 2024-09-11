@@ -1,9 +1,5 @@
-# Change Log
+## v0.9.1 - 11 September 2024
 
-All notable changes to the "toggle-relative-line-number" extension will be documented in this file.
+### Added
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+- **Initial Release**: Implement the core functionality of the extension.
