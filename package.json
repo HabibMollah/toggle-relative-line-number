@@ -1,8 +1,9 @@
 {
-  "name": "toggle-relative-line-number",
-  "displayName": "Toggle Relative Line Number",
+  "name": "toggle-relative-line-numbers",
+  "publisher": "habibium",
+  "displayName": "Toggle Relative Line Numbers",
   "description": "Toggle your line numbers between relative and absolute with keyboard shortcut",
-  "version": "0.0.1",
+  "version": "0.9.1",
   "engines": {
     "vscode": "^1.93.0"
   },
@@ -14,13 +15,13 @@
   "contributes": {
     "commands": [
       {
-        "command": "toggle-relative-line-number.toggle",
-        "title": "Toggle Relative Line Number"
+        "command": "toggle-relative-line-numbers.toggle",
+        "title": "Toggle Relative Line Numbers"
       }
     ],
     "keybindings": [
       {
-        "command": "toggle-relative-line-number.toggle",
+        "command": "toggle-relative-line-numbers.toggle",
         "key": "ctrl+alt+l",
         "when": "editorTextFocus"
       }
