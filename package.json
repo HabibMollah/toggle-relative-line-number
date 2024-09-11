@@ -3,11 +3,12 @@
   "publisher": "habibium",
   "displayName": "Toggle Relative Line Numbers",
   "description": "Toggle your line numbers between relative and absolute with keyboard shortcut",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "engines": {
     "vscode": "^1.93.0"
   },
   "categories": [
+    "Keymaps",
     "Other"
   ],
   "activationEvents": [],
